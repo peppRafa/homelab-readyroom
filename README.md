@@ -22,10 +22,10 @@ The Captain's Ready Room - Network, infrastructure and security engineering home
 | Alerting | ntfy (self-hosted) |
 | Containers | Docker / Docker Compose |
 
----
 
 ## Network Topology
 
+'''
 ISP
 └── OpenWrt Mini PC (192.168.10.1) — edge router, DHCP, dnsmasq, WireGuard
 ├── Proxmox I3 Laptop — hypervisor
@@ -34,7 +34,7 @@ ISP
 ├── NAS Core2Quad
 └── I5 Daily Driver
 
----
+'''
 
 ## What's in here
 
