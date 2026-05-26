@@ -27,7 +27,7 @@ done
 # Sync SnapRAID parity before relying on it
 snapraid sync
 snapraid status
-```
+
 
 Expected: all SMART `PASSED`, sync completes with `Everything OK`.
 
@@ -35,6 +35,7 @@ Expected: all SMART `PASSED`, sync completes with `Everything OK`.
 
 ## Directory Structure
 
+```
 /mnt/storage/backups/homelab/
 ├── openwrt/
 │   ├── openwrt-backup-YYYYMMDD.tar.gz
@@ -48,7 +49,7 @@ Expected: all SMART `PASSED`, sync completes with `Everything OK`.
 │   └── node/
 └── docker/
 └── monitoring/
-
+```
 ---
 
 ## 1. OpenWrt Backup
